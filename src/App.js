@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Ngo from './Ngo';
+import StoreLocator from './StoreLocator';
+import FeaturedListing from './FeaturedListing';
+import CardComponent from './CardComponent';
+import AboutUs from './AboutUs';
+import Testimonial from './Testimonial';
+import Homepage from './Homepage';
+import Responsive from './Responsive';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   {/* 
+    */}
+    <Ngo/>
+    <Homepage/>
+    <StoreLocator/>
+    <FeaturedListing/>
+   
+    <FeaturedListing/>
+    <Testimonial/>
+     <AboutUs/>
+    
     </div>
   );
 }
