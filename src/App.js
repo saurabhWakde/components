@@ -3,7 +3,6 @@ import './App.css';
 import Ngo from './Ngo';
 import StoreLocator from './StoreLocator';
 import FeaturedListing from './FeaturedListing';
-import CardComponent from './CardComponent';
 import AboutUs from './AboutUs';
 import Testimonial from './Testimonial';
 import Homepage from './Homepage';
@@ -13,8 +12,7 @@ function App() {
   return (
     <div className="App">
    {/* 
-    */}
-    <Ngo/>
+     <Ngo/>
     <Homepage/>
     <StoreLocator/>
     <FeaturedListing/>
@@ -22,6 +20,9 @@ function App() {
     <FeaturedListing/>
     <Testimonial/>
      <AboutUs/>
+    */}
+    <FeaturedListing/>
+   
     
     </div>
   );
