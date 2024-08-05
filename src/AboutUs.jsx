@@ -60,7 +60,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="col-start-4 row-start-5 col-span-6 md:col-start-1 md:row-start-2 md:col-span-3 row-span-1 lg:col-start-4 lg:row-start-3  flex items-center justify-center ">
-         <div className="w-full h-full bg-[#E4EDFE] rounded-[3rem] items-center flex justify-center">
+         <div className="w-full h-full bg-[#E4EDFE] rounded-[3rem] items-center flex justify-center py-5">
           <div className="clients flex flex-col justify-center items-center">
           <div className="rating text-center">
           <h1 className="text-3xl font-bold mt-3">4.9/5</h1>

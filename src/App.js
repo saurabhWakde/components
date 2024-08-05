@@ -16,13 +16,13 @@ function App() {
    {/* 
     <StoreLocator/>
     <FeaturedListing/>
-    <AboutUs/>
     <Urban/>
     <Ngo/>
+    <Testimonial/>
     <Homepage/>
     <Faq/>
     */}
-    <Testimonial/>
+    <AboutUs/>
     
     </div>
   );
