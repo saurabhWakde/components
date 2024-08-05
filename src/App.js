@@ -14,15 +14,15 @@ function App() {
   return (
     <div className="App">
    {/* 
-    <StoreLocator/>
+    */}
+    <Homepage/>
+    <AboutUs/>
     <FeaturedListing/>
     <Urban/>
-    <Ngo/>
     <Testimonial/>
-    <Homepage/>
     <Faq/>
-    */}
-    <AboutUs/>
+    <Ngo/>
+    <StoreLocator/>
     
     </div>
   );

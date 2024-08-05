@@ -5,6 +5,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import Slide1 from "./assets/slide1.jpg";
 import Slide2 from "./assets/slide2.jpg";
 import Slide3 from "./assets/slide3.jpg";
+import Logo from './assets/Nagpals.png'
 import Profile from './assets/user.jpg'
 
 const Ngo = () => {
@@ -13,7 +14,7 @@ const Ngo = () => {
       <div className="ngo_container flex shadow-lg w-[90%] m-auto  p-10 rounded-lg mt-16">
         <div className="logo_container w-1/12 flex items-center flex-col justify-between">
           <div className='w-[5rem] h-[5rem] rounded-full overflow-hidden bg-[#D6E5BE] text-center'>
-          <img src={Profile} alt="profile" className="w-full h-full" />
+          <img src={Logo} alt="profile" className="w-full h-full" />
           </div>
          <div className='w-[5rem] h-[5rem] rounded-full overflow-hidden bg-[#D6E5BE] relative'>
          <span className='w-[3rem] h-[3rem] rounded-full overflow-hidden bg-[#fff] right-1 absolute bottom-0'></span>
