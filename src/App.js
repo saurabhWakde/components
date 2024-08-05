@@ -7,22 +7,22 @@ import AboutUs from './AboutUs';
 import Testimonial from './Testimonial';
 import Homepage from './Homepage';
 import Responsive from './Responsive';
+import Urban from './Urban';
+import Faq from './Faq';
 
 function App() {
   return (
     <div className="App">
    {/* 
-     <Ngo/>
-    <Homepage/>
     <StoreLocator/>
-    <FeaturedListing/>
-   
-    <FeaturedListing/>
-    <Testimonial/>
-     <AboutUs/>
+    <Ngo/>
     */}
+    <Homepage/>
+    <Testimonial/>
     <FeaturedListing/>
-   
+    <AboutUs/>
+    <Faq/>
+    <Urban/>
     
     </div>
   );
