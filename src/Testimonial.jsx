@@ -62,7 +62,7 @@ const Testimonial = () => {
         <div className="left_container h-full w-full  lg:w-1/3 pt-40 px-5 py-5">
           <div className=" text-xl lg:text-[2.5rem] text-white font-semibold leading-relaxed">
             <h1 className="uppercase">Experience Authentic Flavors</h1>
-            <p className="text-sm lg:text-[1.5rem] text-slate-400 mt-4">
+            <p className="text-sm lg:text-2xl text-slate-400 mt-4">
               At Nagpals Kitchen, we bring you the best of traditional and
               modern cuisine, crafted with love and the finest ingredients.
             </p>
