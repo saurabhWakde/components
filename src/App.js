@@ -13,16 +13,16 @@ import Faq from './Faq';
 function App() {
   return (
     <div className="App">
-   {/* 
+    {/* 
+      <Homepage/>
+      <AboutUs/>
+      <FeaturedListing/>
+      <Urban/>
+      <Testimonial/>
+      <Faq/>
+      <StoreLocator/>
     */}
-    <Homepage/>
-    <AboutUs/>
-    <FeaturedListing/>
-    <Urban/>
-    <Testimonial/>
-    <Faq/>
     <Ngo/>
-    <StoreLocator/>
     
     </div>
   );
