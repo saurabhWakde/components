@@ -14,15 +14,16 @@ function App() {
   return (
     <div className="App">
     {/* 
+      
+      */}
       <Homepage/>
       <AboutUs/>
       <FeaturedListing/>
       <Urban/>
       <Testimonial/>
       <Faq/>
+      <Ngo/>
       <StoreLocator/>
-    */}
-    <Ngo/>
     
     </div>
   );
