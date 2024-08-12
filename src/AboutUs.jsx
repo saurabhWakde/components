@@ -66,7 +66,7 @@ const AboutUs = () => {
           <img src={Image} alt="Slide" className="h-full w-full" />
         </div>
           </div>
-          <div className="box-5  col-span-12 xs:col-span-6 row-span-2 xs:row-span-1 xs:h-[14rem] sm:h-[16rem] md:h-[22rem] xmd:h-[18rem] lg:h-[15rem]  col-start-1 xs:col-start-4 lg:col-span-3 lg:row-span-3 lg:col-start-4 bg-[#E4EDFE] rounded-3xl">
+          <div className="box-5  col-span-12 xs:col-span-6 row-span-2 xs:row-span-1 xs:h-[14rem] sm:h-[16rem] md:h-[22rem] xmd:h-[18rem] lg:h-[15rem]  col-start-1 xs:col-start-4 lg:col-span-3 lg:row-start-7  lg:row-span-3 lg:col-start-4 bg-[#E4EDFE] rounded-3xl">
           <div className="w-full h-full  items-center flex justify-center ">
           <div className="clients flex flex-col justify-center items-center">
             <div className="rating text-center">
